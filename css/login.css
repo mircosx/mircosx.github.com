@@ -7,7 +7,10 @@ body {
 h1 {
     text-align: center;
 }
-#form_general {
+h3 {
+    text-align: center;
+}
+#form_login {
     background-image: url('../imgs/bg2.png');
     background-repeat: no-repeat;
     width: 225px;
@@ -77,15 +80,12 @@ h1 {
 }
 
 #menu {
-    position: absolute;
-    top: 430px;
     left:0;
-    height: 20px;    
+    height: 30px;    
     width: 100%;
     font-size: small;
     display: block;
     color: black;
-    background-color: #00BFFF;
     vertical-align:middle;
     text-align:center;
 }
@@ -129,6 +129,12 @@ ul.menu_color li:hover > ul {
 }
 ul.menu_color > li {
     display:inline;
+}
+
+.divisor {
+    display: block;
+    height: 50px;
+    width: 100%;
 }
 
 #mygithub{
