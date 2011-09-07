@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to mircosx public repo</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css" /> 
+        <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico"  />
+    </head>
+    <body>
+        <h1>Login screen CSS+imgs</h1>    
+        <div id="form_general">
+            <form action="#" method="POST" onSubmit="return validacampo(this);" >
+                <div id="cabecera">
+                    <strong>Biblos</strong> Login </div>
+                <div id="user">
+                    <input class="input" name="nombre_usuario" onblur="if (value =='') {value = 'Usuario'}" onfocus="if (value == 'Usuario') {value =''}" type="text" value="Usuario" onKeyPress="return solonumero(this,event);"/></div>
+                <div id="pw">
+                    <input class="input" name="password" onblur="if (value =='') {value = '123456'}" onfocus="if (value == '123456') {value =''}" type="password" value="123456" /></div>
+                <div id="alinea">
+                    <div id="enviar">
+                        <input class="login" name="Submit1" type="submit" value="" /></div>
+                </div>
+                <div id="gest_usuario">
+                    <div id="olvidada">
+                        <span>*</span> <a href="#">Recupera password</a></div>
+                    <div id="new">
+                        <span>*</span> <a href="#">Nuevo usuario</a></div>
+                </div>
+            </form>
+        </div>
+        
+            <h1>Menu full CSS image free</h1>
+        
+        <div id="menu">
+
+            <ul class="menu_color">
+                <li><a href='#'>Menu one</a>
+                    <ul>
+                        <li><a href='#'>Drop 1</a></li>
+                        <li><a href='#'>Drop 2</a></li>
+                        <li><a href='#'>Drop 3</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Menu two</a>
+                    <ul>
+                        <li><a href='#'>Drop 1</a></li>
+                        <li><a href='#'>Drop 2</a></li>
+                        <li><a href='#'>Drop 3</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Menu three</a>
+                    <ul>
+                        <li><a href='#'>Drop 1</a></li>
+                        <li><a href='#'>Drop 2</a></li>
+                        <li><a href='#'>Drop 3</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Menu four</a>
+                    <ul>
+                        <li><a href='#'>Drop 1</a></li>
+                        <li><a href='#'>Drop 2</a></li>
+                        <li><a href='#'>Drop 3</a></li>
+                        <li><a href='#'>Drop 4</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Menu CSS</a>
+                    <ul>
+                        <li><a href="javascript:;" onClick="window.open('#','CSS','width=180, height=150, location=0, status=0, resizable=0, scrollbars=0')" style="display:block;color: #B8860B;background-color: #000;">CSS 1</a></li>
+                        <li><a href="javascript:;" onClick="window.open('#','CSS','width=180, height=150, location=0, status=0, resizable=0, scrollbars=0')" style="display:block;color:#00bfff;background-color: #ffdead;">CSS 2</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div id="mygithub">
+            <a href="http://github.com/mircosx"><img src="imgs/pingui.png" title="My GitHub" alt="My GitHub"></a>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,138 @@
+body {
+    color:white;
+    margin: 0px;
+    background-color: #111111;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Helvetica, Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#form_general {
+    background-image: url('../imgs/bg2.png');
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 263px;
+    margin: 30px auto 0px auto;
+    padding-left: 35px;
+}
+#cabecera {
+    color: #ffffff;
+    font-size: 16pt;
+    padding: 10px 0px 25px 22px;
+}
+.input {
+    margin-left: 38px;
+    margin-top: 14px;
+    width: 164px;
+    height: 17px;
+    border: 0px;
+    padding: 6px;
+    font-size: 12pt;
+    background: transparent;
+    color: #9d9d9d;
+}
+#alinea {
+    padding-top: 7px;
+    margin-top: 8px;
+}
+
+#enviar {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.login {
+    background: transparent;
+    border: 0px;
+    background-image: url('../imgs/login.png');
+    background-repeat: no-repeat;
+    width: 77px;
+    height: 29px;
+    cursor: pointer;
+}
+#gest_usuario {
+    padding-top: 29px;
+    font-size: 8pt;
+}
+#gest_usuario a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#gest_usuario a:hover {
+    text-decoration: underline;
+}
+#gest_usuario span {
+    color: #00baff;
+    font-size: 10pt;
+    font-weight: bold;
+}
+#olvidada {
+    float: left;
+    width: 125px;
+}
+
+#error {
+    margin-top: 50px;
+    color:#fff;
+}
+
+#menu {
+    position: absolute;
+    top: 430px;
+    left:0;
+    height: 20px;    
+    width: 100%;
+    font-size: small;
+    display: block;
+    color: black;
+    background-color: #00BFFF;
+    vertical-align:middle;
+    text-align:center;
+}
+
+ul.menu_color {
+    list-style:none;
+    text-decoration: none;
+    text-align: center;
+    color:#B8860B;
+}
+ul.menu_color li {
+    display:block;
+    position:relative;
+    padding:3px 5px;
+    color:#000;
+    background:#ffdead;
+    border:1px solid #696969;
+
+}
+ul.menu_color ul {
+    position:absolute;
+    left:51px;
+    top:-1px;
+    display:none;
+    list-style:none;
+
+}
+ul.menu_color > li > ul {
+    position:absolute;
+    left:-41px;
+    top:19px;
+    display:none;
+    list-style:none;
+    width:150px;
+}
+ul.menu_color li:hover {
+    border:3px solid #aaaaff;
+}
+ul.menu_color li:hover > ul {
+    display:block;
+}
+ul.menu_color > li {
+    display:inline;
+}
+
+#mygithub{
+    position:absolute;
+    top:0;
+    right:10px;
+}
